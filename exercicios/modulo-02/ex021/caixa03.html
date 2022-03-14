@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de Caixas 03</title>
+  <style>
+    h1 {/* box-level */
+      background-color: #4b94d3;
+      text-align: center;
+      height: 300px;
+      width: 300px;
+
+
+      /* 
+      Sem shorthands
+      border-width: 10px;
+      border-style: solid;
+      border-color: lightseagreen; */
+      border: 10px solid lightseagreen;
+
+
+      /* 
+      Sem shorthands
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px; */
+
+      /*
+      Shorthands 1
+
+      padding: 10px 10px 10px 10px; */
+
+      /*
+      Shothands 2
+      os 4 quantos iguais
+      padding: 10px; */
+
+      /*
+      Shorthands 3
+      Parte de iguais e inferior igual primeiro valor
+      Parte direita e esquerda igual segundo valor
+      */
+      padding: 10px 20px;
+
+      /* margin: auto; */
+      /* margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+      margin-left: 20px; */
+
+      /* 
+      Shorthands 1
+      margin: 20px 20px 40px 20px; */
+      /* 
+      Shorthands 2
+      magrin direita e esquerda calculada automaticamente
+      */
+      margin: 20px auto 40px auto;
+
+
+
+      /* outline-width: 5px;
+      outline-style: dashed;
+      outline-color: darkgreen; */
+      outline: 5px dashed darkgreen;
+
+
+    }
+
+    a {/* inline-level*/
+      border-width:  10px;
+      border-style: solid;
+      border-color: blue;
+      
+      padding-top: 16px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Caixa box-level shorthands</h1>
+  <p>Parágrafo box-level também são, mas os <a href="#">links são caixas inline-level</a> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+</body>
+</html>

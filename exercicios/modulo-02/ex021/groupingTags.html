@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f9ecccff;
+      margin: 0px;
+    }
+
+    header {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    nav {
+      background-color: rgb(75, 75, 75);
+      padding: 3px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.31);
+    }
+
+    nav > a {
+      text-decoration: none;
+      color: antiquewhite;
+      margin-right: 30px;
+    }
+
+    nav > a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      background-color: #edffabff;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px 0px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.31);
+
+    }
+
+    #assuntos {
+      background-color: #f9ecccff;
+      color: #3F7C85;
+      box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.30);
+
+    }
+
+
+    article {
+      background-color: #549f93ff;
+      padding: 5px;
+      color: white;
+    }
+
+    article > aside {
+      background-color:rgb(70, 135, 124);
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 4px;
+      margin: 0px;
+    }
+
+    footer > p {
+      margin: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Grouping Tag</h1>
+    <nav>
+      <a href="#">Link 01</a>
+      <a href="#">Link 02</a>
+      <a href="#">Link 03</a>
+      <a href="#">Link 04</a>
+      <a href="#">Link 05</a>
+
+    </nav>
+
+  </header>
+  <main>
+    <section id="assuntos">
+      <p>Tecnologia Server Nginx Node</p>
+
+    </section>
+    <section id="noticias">
+      <article>
+        <h2>Notícia 01</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex quasi debitis qui in nihil enim maxime harum
+          reiciendis cum dolorum.</p>
+        <aside>
+          <p>escrito por alguem</p>
+        </aside>
+      </article>
+
+    </section>
+
+  </main>
+  <footer>
+    <p>Desenvolvido pelo User </p>
+
+  </footer>
+
+</body>
+
+</html>
